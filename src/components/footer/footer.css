@@ -1,0 +1,79 @@
+.footer__container{
+    height: 545px;    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.footer__fashion{
+    width: 415px;
+    height: 248.4px;
+    top: 6388px;
+    left: 100px;
+    column-gap: 32px;
+
+    padding-left: 80px;
+}
+
+.footer__title{
+    width: 192px;
+    height: 52px;
+
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    margin-bottom: 20px;
+}
+
+.footer__compl{
+    width: 415px;
+    height: 80px;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #8E8E8E;
+
+    padding-right: 80px;
+}
+
+.footer__social{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 15px;
+}
+
+.footer__nav{
+    display: flex;
+    column-gap: 50px;
+
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.footer__nav ul{
+    width: 270px;
+    height: 273px;
+}
+
+.footer__nav li a{
+    color: #7A7A7A;
+}
+
+.footer__nav li a:hover{
+    color: #FFFFFF;
+}

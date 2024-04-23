@@ -1,0 +1,104 @@
+.banner__content{
+    height: 963px;
+    display: flex;
+    column-gap: 90px;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    align-items: center;
+}
+
+.banner__img{
+    width: 100%;
+    display: flex;
+}
+
+
+.banner__text{
+    width: 666px;
+    left: 1054.2px;
+    padding: 0 20px;
+}
+
+.banner__title{
+    max-width: 1000px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+}
+
+.banner__disc{
+    font-size: 36.04px;
+    font-weight: 500;
+    line-height: 52.32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.banner__condit{
+    width: Fixed (492.8px)px;
+    height: Fixed (87.19px)px;
+    top: 3070.2px;
+    left: 1077.5px;
+    column-gap: 10px;
+    opacity: 0px;
+    margin-bottom: 20px;
+}
+
+.banner__date{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.banner__cond{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52.32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.banner__btn-wrapper{
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+
+.banner__btn{
+    padding: 18px 40px;
+    background-color: #000000;
+    border-radius: 10px;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+
+}
+
+.banner__highlight{
+    position: relative;
+    display: inline-block;
+}
+
+.banner__highlight span{
+    position: relative;
+}
+
+.banner__highlight::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: 0px;
+    left: -20px;
+    right: -50px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
